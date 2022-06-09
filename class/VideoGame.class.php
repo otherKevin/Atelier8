@@ -12,7 +12,7 @@ class VideoGame extends Product
 
 
     protected string $type;
-    protected string $minAge;
+    protected int $minAge;
     protected float $averageRating;
 
 
