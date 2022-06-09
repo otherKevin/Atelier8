@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ?>
     <h3>Nouveau jeu vidéo :</h3>
     <?php
-    $jeu1 = new VideoGame(10, "Le jeu de la folyyyyyy", 50, "Jeu-vidéo", "Un jeu de ouf malade :o", "MMO-single move ultra zbire powaa", 18, "150/100");
+    $jeu1 = new VideoGame(10, "Le jeu de la folyyyyyy", 50, "Jeu-vidéo", "Un jeu de ouf malade :o", "MMO-single move ultra zbire powaa", 18, 15);
 
     $jeu1->show();
 

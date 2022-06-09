@@ -13,14 +13,13 @@ class VideoGame extends Product
 
     protected string $type;
     protected string $minAge;
-    protected string $averageRating;
-    public float $vat_rate;
+    protected float $averageRating;
 
 
     /**
      * Constructeur
      */
-    public function __construct(float $price, string $name, int $stock, string $category, string $description, string $type, int $minAge, string $averageRating)
+    public function __construct(float $price, string $name, int $stock, string $category, string $description, string $type, int $minAge, float $averageRating)
     {
         // Appel du constructeur du parent
         parent::__construct($price, 20, $name, $stock, $category, $description);

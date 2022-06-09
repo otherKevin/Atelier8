@@ -13,7 +13,7 @@ class Book extends Product
 
     protected string $auteur;
     protected string $format;
-    public float $vat_rate;
+
 
     /**
      * Constructeur
